@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-content {
+    background: #1A1B21;
+    width: 317px;
+    height: 780px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* info *//* info *//* info */
+
+.profile-image{
+    width: 317px;
+    height: 240px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.info {
+    text-align: center;
+    color: white;
+}
+
+.info > h1 {
+    font-family: inter;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.info > p {
+    color: #F3BF99;
+    font-family: inter;
+    font-size: 12.8px;
+    margin: 0px;
+    margin-bottom: 6px;
+}
+
+.info > small {
+    font-family: inter;
+    font-size: 10.24px;
+}
+
+.info-bt {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+
+.email-button {
+    font-family: inter;
+    font-size: 14px;
+    border: solid 1px #D1D5DB;
+    border-radius: 6px;
+    width: 115px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.email > img {
+    margin-top: 2px;
+}
+
+.linkedin-button {
+    background: #5093E2;
+    font-family: inter;
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 115px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.linkedin > img {
+    margin-top: 2px;
+}
+
+/* About *//* About *//* About */
+
+.about, .interests{
+    padding: 0 35px;
+    margin-top: 55px;
+}
+.interests {
+    margin-bottom: 65px;
+}
+
+.about > h1, .interests > h1 {
+    color: #DCDCDC;
+    font-family: inter;
+    font-size: 16px;
+    margin: 0;
+    
+}
+
+.about > p, .interests >p {
+    color: #DCDCDC;
+    font-family: inter;
+    font-size: 10.24px;
+    line-height: 15.36px;
+    margin-top: 5px;
+}
+
+/* Foot *//* Foot *//* Foot */
+
+.contact {
+    background: #161619;
+    height: 65px;
+    border-radius: 0 0 6px 6px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
